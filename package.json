@@ -1,0 +1,22 @@
+{
+  "name": "upload-media",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "jszip": "^3.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tus-js-client": "^4.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}
